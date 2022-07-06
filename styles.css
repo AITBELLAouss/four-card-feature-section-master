@@ -116,14 +116,19 @@ p{
         font-size: 25px;
     }
     
+    .small-txt{
+        margin-left: 25px;
+        width: 300px;
+    }
+
     .head-two{
         font-size: 25px;
     }
 
     article{
         
-        margin-left: 40px;
-        width: 300px;
+        margin-left: 15px;
+        width: 350px;
         
     }
 

@@ -1,0 +1,153 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+main{
+    text-align: center;
+}
+
+.head-one{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    margin-top: 50px;
+    line-height: 50%;
+}
+
+.head-two{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+article{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    margin-left: 440px;
+    width: 470px;
+    font-size: 13.5px;
+}
+
+.super{
+    width: 300px;
+    height: 220px;
+    background-color: white;
+    text-align: left;
+    border-radius: 7.5px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-top: solid hsl(0, 78%, 62%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.build{
+    width: 300px;
+    height: 220px;
+    background-color: white;
+    text-align: left;
+    border-radius: 7.5px;
+    padding: 10px;
+    padding-left: 30px;  
+    margin-top: -100px;
+    margin-left: 130px;
+    border-top: solid hsl(180, 62%, 55%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.karma{
+    width: 300px;
+    height: 220px;
+    background-color: white;
+    text-align: left;
+    border-radius: 7.5px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-left: 870px;
+    margin-top: -235px;
+    border-top: solid hsl(212, 86%, 64%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.calculator{
+    width: 300px;
+    height: 220px;
+    background-color: white;
+    text-align: left;
+    border-radius: 7.5px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-left: 500px;
+    margin-top: -120px;
+    border-top: solid hsl(34, 97%, 64%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+img{
+    margin-left: 230px;
+    margin-top: 20px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    font-size: 20px;
+    
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+@media screen and (max-width : 447px) {
+
+    .head-one{
+        font-size: 25px;
+    }
+    
+    .head-two{
+        font-size: 25px;
+    }
+
+    article{
+        
+        margin-left: 40px;
+        width: 300px;
+        
+    }
+
+    .super{
+
+        margin-left: 20px;
+        margin-top: 50px;
+
+    }
+    
+    .build{
+
+        margin-left: 20px;
+        margin-top: 10px;
+        
+    }
+    
+    .karma{
+
+        margin-left: 20px;
+        margin-top: 10px;
+        
+    }
+    
+    .calculator{
+        
+        margin-left: 20px;
+        margin-top: 10px;
+        
+    }
+
+}
